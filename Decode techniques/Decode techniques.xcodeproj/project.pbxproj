@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
+		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
+		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
+		DAC805A02C17859300EAA3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC8059E2C17859300EAA3D6 /* Main.storyboard */; };
+		DAC805A22C17859600EAA3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC805A12C17859600EAA3D6 /* Assets.xcassets */; };
+		DAC805A52C17859600EAA3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC805A32C17859600EAA3D6 /* LaunchScreen.storyboard */; };
+		DAC805B02C17859700EAA3D6 /* Decode_techniquesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */; };
+		DAC805BA2C17859700EAA3D6 /* Decode_techniquesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805B92C17859700EAA3D6 /* Decode_techniquesUITests.swift */; };
+		DAC805BC2C17859700EAA3D6 /* Decode_techniquesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805BB2C17859700EAA3D6 /* Decode_techniquesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC805AC2C17859700EAA3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC8058D2C17859300EAA3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC805942C17859300EAA3D6;
+			remoteInfo = "Decode techniques";
+		};
+		DAC805B62C17859700EAA3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC8058D2C17859300EAA3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC805942C17859300EAA3D6;
+			remoteInfo = "Decode techniques";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAC8059C2C17859300EAA3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC8059F2C17859300EAA3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC805A12C17859600EAA3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC805A42C17859600EAA3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC805A62C17859600EAA3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC805AB2C17859700EAA3D6 /* Decode techniquesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decode techniquesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode_techniquesTests.swift; sourceTree = "<group>"; };
+		DAC805B52C17859700EAA3D6 /* Decode techniquesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decode techniquesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC805B92C17859700EAA3D6 /* Decode_techniquesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode_techniquesUITests.swift; sourceTree = "<group>"; };
+		DAC805BB2C17859700EAA3D6 /* Decode_techniquesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode_techniquesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC805922C17859300EAA3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805A82C17859700EAA3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805B22C17859700EAA3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC8058C2C17859300EAA3D6 = {
+			isa = PBXGroup;
+			children = (
+				DAC805972C17859300EAA3D6 /* Decode techniques */,
+				DAC805AE2C17859700EAA3D6 /* Decode techniquesTests */,
+				DAC805B82C17859700EAA3D6 /* Decode techniquesUITests */,
+				DAC805962C17859300EAA3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC805962C17859300EAA3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC805952C17859300EAA3D6 /* Decode techniques.app */,
+				DAC805AB2C17859700EAA3D6 /* Decode techniquesTests.xctest */,
+				DAC805B52C17859700EAA3D6 /* Decode techniquesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC805972C17859300EAA3D6 /* Decode techniques */ = {
+			isa = PBXGroup;
+			children = (
+				DAC805982C17859300EAA3D6 /* AppDelegate.swift */,
+				DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */,
+				DAC8059C2C17859300EAA3D6 /* ViewController.swift */,
+				DAC8059E2C17859300EAA3D6 /* Main.storyboard */,
+				DAC805A12C17859600EAA3D6 /* Assets.xcassets */,
+				DAC805A32C17859600EAA3D6 /* LaunchScreen.storyboard */,
+				DAC805A62C17859600EAA3D6 /* Info.plist */,
+			);
+			path = "Decode techniques";
+			sourceTree = "<group>";
+		};
+		DAC805AE2C17859700EAA3D6 /* Decode techniquesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */,
+			);
+			path = "Decode techniquesTests";
+			sourceTree = "<group>";
+		};
+		DAC805B82C17859700EAA3D6 /* Decode techniquesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC805B92C17859700EAA3D6 /* Decode_techniquesUITests.swift */,
+				DAC805BB2C17859700EAA3D6 /* Decode_techniquesUITestsLaunchTests.swift */,
+			);
+			path = "Decode techniquesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC805942C17859300EAA3D6 /* Decode techniques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC805BF2C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniques" */;
+			buildPhases = (
+				DAC805912C17859300EAA3D6 /* Sources */,
+				DAC805922C17859300EAA3D6 /* Frameworks */,
+				DAC805932C17859300EAA3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decode techniques";
+			productName = "Decode techniques";
+			productReference = DAC805952C17859300EAA3D6 /* Decode techniques.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC805AA2C17859700EAA3D6 /* Decode techniquesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC805C22C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniquesTests" */;
+			buildPhases = (
+				DAC805A72C17859700EAA3D6 /* Sources */,
+				DAC805A82C17859700EAA3D6 /* Frameworks */,
+				DAC805A92C17859700EAA3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC805AD2C17859700EAA3D6 /* PBXTargetDependency */,
+			);
+			name = "Decode techniquesTests";
+			productName = "Decode techniquesTests";
+			productReference = DAC805AB2C17859700EAA3D6 /* Decode techniquesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC805B42C17859700EAA3D6 /* Decode techniquesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC805C52C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniquesUITests" */;
+			buildPhases = (
+				DAC805B12C17859700EAA3D6 /* Sources */,
+				DAC805B22C17859700EAA3D6 /* Frameworks */,
+				DAC805B32C17859700EAA3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC805B72C17859700EAA3D6 /* PBXTargetDependency */,
+			);
+			name = "Decode techniquesUITests";
+			productName = "Decode techniquesUITests";
+			productReference = DAC805B52C17859700EAA3D6 /* Decode techniquesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC8058D2C17859300EAA3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DAC805942C17859300EAA3D6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DAC805AA2C17859700EAA3D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DAC805942C17859300EAA3D6;
+					};
+					DAC805B42C17859700EAA3D6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DAC805942C17859300EAA3D6;
+					};
+				};
+			};
+			buildConfigurationList = DAC805902C17859300EAA3D6 /* Build configuration list for PBXProject "Decode techniques" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC8058C2C17859300EAA3D6;
+			productRefGroup = DAC805962C17859300EAA3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC805942C17859300EAA3D6 /* Decode techniques */,
+				DAC805AA2C17859700EAA3D6 /* Decode techniquesTests */,
+				DAC805B42C17859700EAA3D6 /* Decode techniquesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC805932C17859300EAA3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC805A52C17859600EAA3D6 /* LaunchScreen.storyboard in Resources */,
+				DAC805A22C17859600EAA3D6 /* Assets.xcassets in Resources */,
+				DAC805A02C17859300EAA3D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805A92C17859700EAA3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805B32C17859700EAA3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC805912C17859300EAA3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */,
+				DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */,
+				DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805A72C17859700EAA3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC805B02C17859700EAA3D6 /* Decode_techniquesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC805B12C17859700EAA3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC805BA2C17859700EAA3D6 /* Decode_techniquesUITests.swift in Sources */,
+				DAC805BC2C17859700EAA3D6 /* Decode_techniquesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC805AD2C17859700EAA3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC805942C17859300EAA3D6 /* Decode techniques */;
+			targetProxy = DAC805AC2C17859700EAA3D6 /* PBXContainerItemProxy */;
+		};
+		DAC805B72C17859700EAA3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC805942C17859300EAA3D6 /* Decode techniques */;
+			targetProxy = DAC805B62C17859700EAA3D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC8059E2C17859300EAA3D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC8059F2C17859300EAA3D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC805A32C17859600EAA3D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC805A42C17859600EAA3D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC805BD2C17859700EAA3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC805BE2C17859700EAA3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC805C02C17859700EAA3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Decode techniques/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniques";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC805C12C17859700EAA3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Decode techniques/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniques";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC805C32C17859700EAA3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniquesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decode techniques.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Decode techniques";
+			};
+			name = Debug;
+		};
+		DAC805C42C17859700EAA3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniquesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Decode techniques.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Decode techniques";
+			};
+			name = Release;
+		};
+		DAC805C62C17859700EAA3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniquesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Decode techniques";
+			};
+			name = Debug;
+		};
+		DAC805C72C17859700EAA3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aycc.com.Decode-techniquesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Decode techniques";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC805902C17859300EAA3D6 /* Build configuration list for PBXProject "Decode techniques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC805BD2C17859700EAA3D6 /* Debug */,
+				DAC805BE2C17859700EAA3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC805BF2C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC805C02C17859700EAA3D6 /* Debug */,
+				DAC805C12C17859700EAA3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC805C22C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniquesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC805C32C17859700EAA3D6 /* Debug */,
+				DAC805C42C17859700EAA3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC805C52C17859700EAA3D6 /* Build configuration list for PBXNativeTarget "Decode techniquesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC805C62C17859700EAA3D6 /* Debug */,
+				DAC805C72C17859700EAA3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC8058D2C17859300EAA3D6 /* Project object */;
+}

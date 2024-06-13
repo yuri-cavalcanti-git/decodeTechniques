@@ -10,6 +10,7 @@
 		DA3D6F912C17906000C621CC /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DA3D6F902C17906000C621CC /* Quick */; };
 		DABA77FF2C1793B800DDFE7D /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DABA77FE2C1793B800DDFE7D /* Nimble */; };
 		DABA78022C17943A00DDFE7D /* Nimble-Snapshots in Frameworks */ = {isa = PBXBuildFile; productRef = DABA78012C17943A00DDFE7D /* Nimble-Snapshots */; };
+		DABA78052C1799E400DDFE7D /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78042C1799E400DDFE7D /* ExampleModel.swift */; };
 		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
 		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
 		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DABA78042C1799E400DDFE7D /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DABA78032C17959600DDFE7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DABA78042C1799E400DDFE7D /* ExampleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DAC8058C2C17859300EAA3D6 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		DAC805972C17859300EAA3D6 /* Decode techniques */ = {
 			isa = PBXGroup;
 			children = (
+				DABA78032C17959600DDFE7D /* Models */,
 				DAC805982C17859300EAA3D6 /* AppDelegate.swift */,
 				DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */,
 				DAC8059C2C17859300EAA3D6 /* ViewController.swift */,
@@ -217,6 +228,7 @@
 				DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */,
 				DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */,
 				DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */,
+				DABA78052C1799E400DDFE7D /* ExampleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

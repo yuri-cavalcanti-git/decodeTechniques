@@ -16,6 +16,9 @@
 		DABA780E2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA780D2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift */; };
 		DABA78102C1B756300DDFE7D /* ModelEnumWithVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA780F2C1B756300DDFE7D /* ModelEnumWithVars.swift */; };
 		DABA78132C1B7F1000DDFE7D /* Models+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78122C1B7F1000DDFE7D /* Models+Stub.swift */; };
+		DABA78152C1B89EB00DDFE7D /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */; };
+		DABA78172C1B935E00DDFE7D /* ModelCodableBoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */; };
+		DABA781A2C1B943C00DDFE7D /* FixtureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78192C1B943C00DDFE7D /* FixtureHelper.swift */; };
 		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
 		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
 		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 		DABA780D2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnumCaseUnknown.swift; sourceTree = "<group>"; };
 		DABA780F2C1B756300DDFE7D /* ModelEnumWithVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnumWithVars.swift; sourceTree = "<group>"; };
 		DABA78122C1B7F1000DDFE7D /* Models+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+Stub.swift"; sourceTree = "<group>"; };
+		DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModelTests.swift; sourceTree = "<group>"; };
+		DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCodableBoolTests.swift; sourceTree = "<group>"; };
+		DABA78192C1B943C00DDFE7D /* FixtureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureHelper.swift; sourceTree = "<group>"; };
 		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +108,14 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
+		DABA78182C1B940800DDFE7D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DABA78192C1B943C00DDFE7D /* FixtureHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DAC8058C2C17859300EAA3D6 = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +153,11 @@
 		DAC805AE2C17859700EAA3D6 /* Decode techniquesTests */ = {
 			isa = PBXGroup;
 			children = (
+				DABA78182C1B940800DDFE7D /* Helpers */,
 				DABA78112C1B7EE100DDFE7D /* Stubs */,
 				DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */,
+				DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */,
+				DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */,
 			);
 			path = "Decode techniquesTests";
 			sourceTree = "<group>";
@@ -271,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABA78172C1B935E00DDFE7D /* ModelCodableBoolTests.swift in Sources */,
+				DABA781A2C1B943C00DDFE7D /* FixtureHelper.swift in Sources */,
 				DAC805B02C17859700EAA3D6 /* Decode_techniquesTests.swift in Sources */,
+				DABA78152C1B89EB00DDFE7D /* ExampleModelTests.swift in Sources */,
 				DABA78132C1B7F1000DDFE7D /* Models+Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

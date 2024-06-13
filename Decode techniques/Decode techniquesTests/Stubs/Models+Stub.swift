@@ -4,6 +4,14 @@ import Foundation
 
 // MARK: ExampleModel
 extension ExampleModel {
+    static func stub(id: String = "123",
+                     product: ProductType = .concessionaria,
+                     limitExceed: Bool = true) -> ExampleModel {
+        ExampleModel(id: id,
+                     product: product,
+                     limitExceed: limitExceed)
+    }
+    
     static func dataStub() -> Data {
         let resultJson = """
         {
@@ -27,6 +35,12 @@ extension ExampleModel {
 
 // MARK: ModelCodableBool
 extension ModelCodableBool {
+    static func stub(id: String = "123",
+                     limitExceed: Bool = true) -> ModelCodableBool {
+        ModelCodableBool(id: id,
+                         limitExceeded: limitExceed)
+    }
+    
     static func dataStub() -> Data {
         let resultJson = """
         {
@@ -49,6 +63,12 @@ extension ModelCodableBool {
 
 // MARK: ModelEnumCaseUnknown
 extension ModelEnumCaseUnknown {
+    static func stub(id: String = "123",
+                     status: Status = .active) -> ModelEnumCaseUnknown {
+        ModelEnumCaseUnknown(id: id,
+                             status: status)
+    }
+    
     static func dataStub() -> Data {
         let resultJson = """
         {
@@ -72,6 +92,10 @@ extension ModelEnumCaseUnknown {
 
 // MARK: ModelEnumWithVars
 extension ModelEnumWithVars {
+    static func stub(id: String = "123") -> ModelEnumWithVars {
+        ModelEnumWithVars(id: id)
+    }
+    
     static func dataStub() -> Data {
         let resultJson = """
         {

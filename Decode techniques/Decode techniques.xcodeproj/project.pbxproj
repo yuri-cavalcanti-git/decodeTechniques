@@ -14,6 +14,7 @@
 		DABA78092C1B6AF400DDFE7D /* ModelCodableBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78082C1B6AF400DDFE7D /* ModelCodableBool.swift */; };
 		DABA780C2C1B6B6000DDFE7D /* DecodableWraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA780B2C1B6B6000DDFE7D /* DecodableWraper.swift */; };
 		DABA780E2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA780D2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift */; };
+		DABA78102C1B756300DDFE7D /* ModelEnumWithVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA780F2C1B756300DDFE7D /* ModelEnumWithVars.swift */; };
 		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
 		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
 		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		DABA78082C1B6AF400DDFE7D /* ModelCodableBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCodableBool.swift; sourceTree = "<group>"; };
 		DABA780B2C1B6B6000DDFE7D /* DecodableWraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableWraper.swift; sourceTree = "<group>"; };
 		DABA780D2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnumCaseUnknown.swift; sourceTree = "<group>"; };
+		DABA780F2C1B756300DDFE7D /* ModelEnumWithVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnumWithVars.swift; sourceTree = "<group>"; };
 		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				DABA78042C1799E400DDFE7D /* ExampleModel.swift */,
 				DABA78082C1B6AF400DDFE7D /* ModelCodableBool.swift */,
 				DABA780D2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift */,
+				DABA780F2C1B756300DDFE7D /* ModelEnumWithVars.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABA78102C1B756300DDFE7D /* ModelEnumWithVars.swift in Sources */,
 				DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */,
 				DABA780E2C1B720E00DDFE7D /* ModelEnumCaseUnknown.swift in Sources */,
 				DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */,

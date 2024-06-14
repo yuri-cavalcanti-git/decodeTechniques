@@ -27,6 +27,7 @@
 		DABA78292C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78282C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json */; };
 		DABA782B2C1C749B00DDFE7D /* ModelEnumWithVars.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA782A2C1C749B00DDFE7D /* ModelEnumWithVars.json */; };
 		DABA782D2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA782C2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json */; };
+		DABA782F2C1C7DFB00DDFE7D /* ModelEnumCaseUnknownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA782E2C1C7DFB00DDFE7D /* ModelEnumCaseUnknownTests.swift */; };
 		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
 		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
 		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
@@ -64,6 +65,7 @@
 		DABA78282C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumCaseUnknownInvalidStatus.json; sourceTree = "<group>"; };
 		DABA782A2C1C749B00DDFE7D /* ModelEnumWithVars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumWithVars.json; sourceTree = "<group>"; };
 		DABA782C2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumWithVarsInvalidId.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DABA782E2C1C7DFB00DDFE7D /* ModelEnumCaseUnknownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEnumCaseUnknownTests.swift; sourceTree = "<group>"; };
 		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */,
 				DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */,
 				DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */,
+				DABA782E2C1C7DFB00DDFE7D /* ModelEnumCaseUnknownTests.swift */,
 			);
 			path = "Decode techniquesTests";
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				DABA78172C1B935E00DDFE7D /* ModelCodableBoolTests.swift in Sources */,
 				DABA781A2C1B943C00DDFE7D /* FixtureHelper.swift in Sources */,
 				DAC805B02C17859700EAA3D6 /* Decode_techniquesTests.swift in Sources */,
+				DABA782F2C1C7DFB00DDFE7D /* ModelEnumCaseUnknownTests.swift in Sources */,
 				DABA78152C1B89EB00DDFE7D /* ExampleModelTests.swift in Sources */,
 				DABA78132C1B7F1000DDFE7D /* Models+Stub.swift in Sources */,
 			);

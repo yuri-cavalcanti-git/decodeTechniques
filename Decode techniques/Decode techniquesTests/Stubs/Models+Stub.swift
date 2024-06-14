@@ -79,7 +79,7 @@ extension ModelEnumCaseUnknown {
         return resultJson.data(using: .utf8)!
     }
     
-    static func dataStubUnknownState() -> Data {
+    static func dataStubUnknownStatus() -> Data {
         let resultJson = """
         {
             "id": "123",

@@ -19,6 +19,14 @@
 		DABA78152C1B89EB00DDFE7D /* ExampleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */; };
 		DABA78172C1B935E00DDFE7D /* ModelCodableBoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */; };
 		DABA781A2C1B943C00DDFE7D /* FixtureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA78192C1B943C00DDFE7D /* FixtureHelper.swift */; };
+		DABA781F2C1C719A00DDFE7D /* ExampleModelWithoutParams.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA781E2C1C719A00DDFE7D /* ExampleModelWithoutParams.json */; };
+		DABA78212C1C71C400DDFE7D /* ExampleModel.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78202C1C71C400DDFE7D /* ExampleModel.json */; };
+		DABA78232C1C73C500DDFE7D /* ModelCodableBool.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78222C1C73C500DDFE7D /* ModelCodableBool.json */; };
+		DABA78252C1C73E800DDFE7D /* ModelCodableBoolWithoutParams.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78242C1C73E800DDFE7D /* ModelCodableBoolWithoutParams.json */; };
+		DABA78272C1C743200DDFE7D /* ModelEnumCaseUnknown.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78262C1C743200DDFE7D /* ModelEnumCaseUnknown.json */; };
+		DABA78292C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA78282C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json */; };
+		DABA782B2C1C749B00DDFE7D /* ModelEnumWithVars.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA782A2C1C749B00DDFE7D /* ModelEnumWithVars.json */; };
+		DABA782D2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json in Resources */ = {isa = PBXBuildFile; fileRef = DABA782C2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json */; };
 		DAC805992C17859300EAA3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC805982C17859300EAA3D6 /* AppDelegate.swift */; };
 		DAC8059B2C17859300EAA3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */; };
 		DAC8059D2C17859300EAA3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8059C2C17859300EAA3D6 /* ViewController.swift */; };
@@ -48,6 +56,14 @@
 		DABA78142C1B89EB00DDFE7D /* ExampleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModelTests.swift; sourceTree = "<group>"; };
 		DABA78162C1B935E00DDFE7D /* ModelCodableBoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCodableBoolTests.swift; sourceTree = "<group>"; };
 		DABA78192C1B943C00DDFE7D /* FixtureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureHelper.swift; sourceTree = "<group>"; };
+		DABA781E2C1C719A00DDFE7D /* ExampleModelWithoutParams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExampleModelWithoutParams.json; sourceTree = "<group>"; };
+		DABA78202C1C71C400DDFE7D /* ExampleModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExampleModel.json; sourceTree = "<group>"; };
+		DABA78222C1C73C500DDFE7D /* ModelCodableBool.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelCodableBool.json; sourceTree = "<group>"; };
+		DABA78242C1C73E800DDFE7D /* ModelCodableBoolWithoutParams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelCodableBoolWithoutParams.json; sourceTree = "<group>"; };
+		DABA78262C1C743200DDFE7D /* ModelEnumCaseUnknown.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumCaseUnknown.json; sourceTree = "<group>"; };
+		DABA78282C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumCaseUnknownInvalidStatus.json; sourceTree = "<group>"; };
+		DABA782A2C1C749B00DDFE7D /* ModelEnumWithVars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumWithVars.json; sourceTree = "<group>"; };
+		DABA782C2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ModelEnumWithVarsInvalidId.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DAC805952C17859300EAA3D6 /* Decode techniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decode techniques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC805982C17859300EAA3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC8059A2C17859300EAA3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +132,21 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		DABA781B2C1C6FFA00DDFE7D /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				DABA78202C1C71C400DDFE7D /* ExampleModel.json */,
+				DABA781E2C1C719A00DDFE7D /* ExampleModelWithoutParams.json */,
+				DABA78222C1C73C500DDFE7D /* ModelCodableBool.json */,
+				DABA78242C1C73E800DDFE7D /* ModelCodableBoolWithoutParams.json */,
+				DABA78262C1C743200DDFE7D /* ModelEnumCaseUnknown.json */,
+				DABA78282C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json */,
+				DABA782A2C1C749B00DDFE7D /* ModelEnumWithVars.json */,
+				DABA782C2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
 		DAC8058C2C17859300EAA3D6 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +184,7 @@
 		DAC805AE2C17859700EAA3D6 /* Decode techniquesTests */ = {
 			isa = PBXGroup;
 			children = (
+				DABA781B2C1C6FFA00DDFE7D /* Jsons */,
 				DABA78182C1B940800DDFE7D /* Helpers */,
 				DABA78112C1B7EE100DDFE7D /* Stubs */,
 				DAC805AF2C17859700EAA3D6 /* Decode_techniquesTests.swift */,
@@ -263,6 +295,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABA78212C1C71C400DDFE7D /* ExampleModel.json in Resources */,
+				DABA782D2C1C74B500DDFE7D /* ModelEnumWithVarsInvalidId.json in Resources */,
+				DABA78252C1C73E800DDFE7D /* ModelCodableBoolWithoutParams.json in Resources */,
+				DABA78272C1C743200DDFE7D /* ModelEnumCaseUnknown.json in Resources */,
+				DABA78232C1C73C500DDFE7D /* ModelCodableBool.json in Resources */,
+				DABA782B2C1C749B00DDFE7D /* ModelEnumWithVars.json in Resources */,
+				DABA781F2C1C719A00DDFE7D /* ExampleModelWithoutParams.json in Resources */,
+				DABA78292C1C744C00DDFE7D /* ModelEnumCaseUnknownInvalidStatus.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

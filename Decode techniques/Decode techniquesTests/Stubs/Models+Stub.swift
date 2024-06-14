@@ -38,7 +38,7 @@ extension ModelCodableBool {
     static func stub(id: String = "123",
                      limitExceed: Bool = true) -> ModelCodableBool {
         ModelCodableBool(id: id,
-                         limitExceeded: limitExceed)
+                         limitExceed: limitExceed)
     }
     
     static func dataStub() -> Data {

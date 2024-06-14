@@ -6,5 +6,5 @@ import Foundation
 
 struct ModelCodableBool: Equatable, Decodable {
     let id: String
-    @CodableBool var limitExceeded: Bool
+    @CodableBool var limitExceed: Bool
 }

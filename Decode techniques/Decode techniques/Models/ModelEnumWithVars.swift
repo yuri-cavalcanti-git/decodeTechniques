@@ -13,7 +13,7 @@ struct ModelEnumWithVars: Equatable, Decodable {
 extension ModelEnumWithVars {
     enum Service: String {
         case gas = "123"
-        case energi = "456"
+        case energy = "456"
         case other
         
         init(id: String) {
@@ -23,9 +23,9 @@ extension ModelEnumWithVars {
         var label: String {
             switch self {
             case .gas:
-                return "O serviço é gás"
-            case .energi:
-                return "O serviço é energia"
+                return "gás"
+            case .energy:
+                return "energia"
             case .other:
                 return "Outro serviço"
             }

@@ -17,6 +17,7 @@ final class ExampleModelTests: QuickSpec {
                     decoder = JSONDecoder()
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
                     sut = try? decoder.decode(ExampleModel.self, from: ExampleModel.dataStub())
+                    // se precisar stubar apenas uma string, fazer assim: "\"Arthur_Morgan\""
                 }
                 
                 it("decode without errors") {
